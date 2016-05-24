@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cerevo.blueninja.hyourowgan_ble_sample" >
+    package="com.cerevo.blueninja.blueninja_telemetry_sample" >
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -25,20 +25,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".GpioActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name=".PwmActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
             android:name=".MotionSensorActivity"
             android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name=".AirpressureActivity"
-            android:screenOrientation="portrait">
         </activity>
     </application>
 

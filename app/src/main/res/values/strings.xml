@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">BlueNinja HyouRowGan</string>
+    <string name="app_name">BlueNinja Telemetry</string>
+    <string-array name="spnEntries">
+        <item>Interval  100ms</item>
+        <item>Interval  200ms</item>
+        <item>Interval  300ms</item>
+        <item>Interval  400ms</item>
+        <item>Interval  500ms</item>
+        <item>Interval  600ms</item>
+        <item>Interval  700ms</item>
+        <item>Interval  800ms</item>
+        <item>Interval  900ms</item>
+        <item>Interval 1000ms</item>
+    </string-array>
 </resources>
