@@ -1,7 +1,7 @@
-# HyouRowGan BLE Sample for Android
+# BlueNinja Telemetry Sample for Android
+[BlueNinja Telemetry](https://github.com/f-okuhara/blueninja_telemetry)のセントラル側アプリケーションのサンプルです。  
 
-This sample program is BLE Central / Client of BlueNinja [HyouRowGan](https://github.com/cerevo/hyourowgan).  
-https://blueninja.cerevo.com/ja/example/000_hyourowgan/(It's Japanese.)
 
-## Supported Android version
-Version 4.4 or later(5.0 or later recommended).
+## サポートしているAndroidのバージョン
+Lolipop(5.0)以降。Lolipopより古いAPIには対応していません。  
+(APIインターフェース古い、MTUネゴシエーションに対応していないなど仕様的/機能的な問題です。再ビルドでは対応できません。)
